@@ -10,6 +10,7 @@ TOOLS=(
     git
     node
     wget
+    bash-completion
 )
 
 for i in ${TOOLS[@]}; do
