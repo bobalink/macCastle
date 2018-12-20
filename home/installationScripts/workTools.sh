@@ -16,6 +16,7 @@ done
 TOOLS=(
     node
     nvm
+    vault
     kubernetes-cli
     kubernetes-helm
     kops
