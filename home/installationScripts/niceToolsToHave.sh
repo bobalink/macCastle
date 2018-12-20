@@ -11,5 +11,4 @@ for i in ${TOOLS[@]}; do
 done
 
 brew cask install --appdir="/Applications" spotify
-brew cask install --appdir="/Applications" discord
 

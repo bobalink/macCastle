@@ -8,7 +8,7 @@ g() { "$(which git)" "$@" ;}
 alias lint="git status | sed -n -e 's%^.*modified:   %./%p' | grep '.php$' | xargs -n1 php -l"
 export PATH=~/bin:$PATH
 # TODO: get vault set up
-# export PATH="$PATH:/Users/nicholas.pampe/Documents/vault"
+# export PATH="$PATH:/Users/waverly.hinton/Documents/vault"
 eval $(thefuck --alias)
 alias gp='git pull origin $parse_git_branch && git push origin $parse_git_branch'
 alias bs='. ~/.bash_profile'
